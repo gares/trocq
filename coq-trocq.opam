@@ -42,7 +42,7 @@ install: [make "install" "-C" "std"]
 depends: [
   "rocq-core" {>= "9.0"}
   "rocq-stdlib"
-  "coq-elpi" {>= "3.4.0"}
+  "rocq-elpi" {>= "3.4.0"}
 ]
 
 tags: [
